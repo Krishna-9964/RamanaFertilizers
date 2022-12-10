@@ -1,0 +1,71 @@
+@charset "UTF-8";
+.container{
+   border: 0.5px solid black;
+}
+h3{
+    text-align: center;
+
+}
+body{
+
+    margin: 30px;
+    place-items: center;
+    position: relative;
+}
+table{
+    width : 100%;
+    text-align: left;
+}
+#date{
+    text-align: right;
+
+}
+.item{
+    padding-top: 12px;
+    width : 60%;
+}
+.btns{
+    width : 4%;
+    text-align: left;
+    padding: 10px;
+
+}
+.final{
+    text-align: right;
+    padding: 20px;
+    padding-right: 15%;
+}
+.o-desc{
+    border: 1px solid #7c7b7b;
+    text-align: center;
+    background-color: azure;
+}
+a{
+    color : black;  
+}
+header{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    /* position: absolute; */
+    /* width : 100%; */
+    border: 2px solid black;
+}
+.header{
+    width : 70%;
+    text-align: center;
+    /* position: absolute; */
+}
+
+.totalvalues{
+    display: none;
+}
+.c_name{
+	border : none;
+}
+/* td{
+    width:50%;
+    align-items: center;
+
+} */

@@ -1,0 +1,37 @@
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="DBConnect.dbconnect.*" %>
+<%@ page import="java.sql.*" %>
+<%@ page import="java.text.DecimalFormat" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<%
+// Reading the list of fertilizers and quantity as a string
+String fert = request.getParameter("fertilizers").trim();
+String qty = request.getParameter("quantity").trim();
+//qty = qty.trim();
+String price = request.getParameter("price").trim();
+//Spilt the Strings
+String[] f = fert.split(" ",0);
+String[] q = qty.split(" ",0);
+String[] p = price.split(" ",0);
+for(int i=0;i<f.length;i++)
+{
+	out.print(f[i]+" "+ q[i]+" "+p[i]);
+	DBConnect.dbconnect.addSells(f[i],Integer.parseInt(q[i]),Float.parseFloat(p[i]));
+}
+float total = Float.parseFloat(request.getParameter("sumTotal"));
+DecimalFormat df = new DecimalFormat("0.00");
+String c_name = request.getParameter("c_name");
+DBConnect.dbconnect.addTransaction(c_name, Float.parseFloat(total));
+%>
+ 
+</body>
+</html>

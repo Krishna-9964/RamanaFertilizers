@@ -1,0 +1,207 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Generate Reports
+</title><link href="Styles/HMSMENU.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        
+        .link
+        {
+            text-decoration:none;
+            font-family:Calibri;
+
+        }
+    
+        form {
+    border: 3px solid #f1f1f1;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}*/
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+        .form-signin {
+            max-width: 380px;
+            padding: 15px 35px 45px;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid rgba(0,0,0,0.1);
+        }
+        .form-signin-heading{
+             margin-bottom: 30px;
+        }
+        input[type="text"] {
+	  background-color: #e5e5e5;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+	}
+
+	input[type="password"] {
+	  background-color: #e5e5e5;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+	}
+     .wrapper {	
+    margin-top: 80px;
+    margin-bottom: 80px;
+    }
+
+   	input[type="submit"] {
+background-color: #008dde;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+        .form-group {
+            width: 343px;
+        }
+    </style>
+</head>
+<body>
+<%@ include file="header.html" %>
+    <form action="reports.jsp" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="ih3wb/CAwpezF0ZIm1JWCc6y5vhTvPFMzZZOnHUKeC6eJWZaqio5wTEFdAWTIghYdOXgJIIzxbOE6Huy53IxZxvb6uozpnV/8eKorbTnsI8=" />
+</div>
+  
+        <div>
+            
+            
+            <table align="center" style="font-size:25px">
+                  <tr style="color: #000000; font-size:30px; font-weight: bold; align-content:center font-size: 20px; font-family: Calibri;">
+                    <td>
+                        GENERATE TRANSACTION REPORT
+                    </td>
+                </tr>
+            </table>
+
+
+            <div class="wrapper">
+               
+            <div class="form-signin"> 
+                      
+      <h2 class="form-signin-heading" style="font-family:'Times New Roman'">Select the range</h2>
+      <div class="form-group">
+        <label>From :</label>
+      <input name="from" type="date" id="username" class="form-control" name="username"required="required" autofocus="" />
+      </div>
+              
+  
+
+     
+
+                  <div class="form-group">
+                      <label>To :</label>
+      <input name="to" type="date" id="password" class="form-control" name="password" required="required" />      
+      </div>
+
+
+                 <input type="submit" name="login1" value="SUBMIT" id="login1" />
+     
+                 
+          
+         
+    </div>
+               
+
+
+        </div>    
+    </div>
+        
+         <div >
+            <table style="width: 100%;">
+                    <tr>
+
+                        <td>
+                            <img src="./Images/footerMenu.png" width="100%"  style="border-radius: 6px 6px 2px 2px" />
+                           
+                        </td>
+                        </tr>
+              </table>
+        </div>
+    </form>
+   
+
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+127.0.0.1 - - [28/Oct/2022:18:49:29 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [28/Oct/2022:18:49:30 +0530] "GET /RamanaFertilizers/WEB-INF/classes/DBConnect/dbconnect.java HTTP/1.1" 404 682

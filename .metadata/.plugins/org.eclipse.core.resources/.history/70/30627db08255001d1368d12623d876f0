@@ -1,0 +1,42 @@
+function getValues(){
+	var sl = tbody.children.length;
+    let sel = document.getElementById("itemName");
+    let item = sel.options[sel.selectedIndex].text;
+    let  qty = document.getElementById("qty").value;
+     console.log(item);
+     console.log(qty);
+     price = parseInt(sel.value);
+     price = price + (price*0.05);
+     tbody = document.getElementById("tbody");
+     
+     content = '<tr id="addItems"><td class="items">'+item+'</td><td class="price">'+price+'</td><td class="qnty">'+qty+'</td><td class="desc">'+ Math.fround(qty*price)+'</td><td class="desc"><input type="button" value="DeleteItem" onclick="deleteItem('+sl+')"></td></tr>';
+     tbody.innerHTML += content;
+     document.getElementById("qty").value = null;
+     document.getElementById("itemName").value = "";
+     let sum =  parseInt(document.getElementById("sumTotal").value);
+     sum += price*qty;
+     document.getElementById("sumTotal").value = sum;
+ }
+ 
+ function deleteItem(sl)
+ {
+	
+}
+
+ function values()
+ {
+    let len = document.getElementsByClassName('items').length;
+    var fert="";
+    var qty="";
+    var price="";
+
+      for(i=0;i<len;i++)
+      {
+         fert += " " + document.getElementsByClassName('items')[i].innerText;
+         qty += " " + document.getElementsByClassName('qnty')[i].innerText;
+         price += " " + document.getElementsByClassName('price')[i].innerText;
+      }
+      document.getElementById('fertilizers').value = fert;
+      document.getElementById('quantity').value = qty;
+      document.getElementById('price').value = price;
+ }

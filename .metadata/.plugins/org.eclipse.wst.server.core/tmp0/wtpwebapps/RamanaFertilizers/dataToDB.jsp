@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+String fert = request.getParameter("fname");
+String comp = request.getParameter("Company");
+double price = Double.parseDouble(request.getParameter("Price"));
+int qty = Integer.parseInt(request.getParameter("Qty"));
+DBConnect.dbconnect.addStock(fert, comp, price, qty);
+%>
+<%@ include file="addStock.jsp" %>
+<%=qty %>
+</body>
+</html>

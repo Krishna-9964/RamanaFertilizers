@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/krishnakitty/Desktop/RamanaFertilizers/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2095611983.index
+3373838270.index
+3120416063.index
+1719966343.index
+900104015.index
+1770476966.index

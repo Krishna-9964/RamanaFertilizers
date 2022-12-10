@@ -1,0 +1,77 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="DBConnect.dbconnect.*" %>
+<%@ page import="java.sql.*" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Add to Stock</title>
+    <style>
+        .container{
+            border: 1px solid green;
+            width:50%;
+            text-align: center;
+            background-color: #dcf8e8;
+            padding : 10px;
+            border-radius: 10px;
+            position : relative;
+            padding-bottom: 30px;
+        }
+        #fert,#company,#price,#qty{
+            width : 300px;
+            margin : 10px;
+            align-items: center;
+            margin-left: 30%;
+        }
+        h1{
+            font-weight: 1000;
+            color : solid black;
+        }
+        .newItem
+		{
+		border: 2px solid black;
+		width : 50%;
+		
+		}
+    </style>
+</head>
+<body>
+<%@ include file="header.html"%>
+    <form action="dataToDB.jsp">
+        <div class="container">
+            <h1>ADD STOCK</h1>
+            <div id="fert">
+                <select name="fname"  id="itemName" tabindex="1" class="form-control">
+                    <option selected="selected" value="0">--Select--</option>
+                    <%
+				        ResultSet rs = DBConnect.dbconnect.getFertilizers();
+				        rs.next();
+				        while(rs.next())
+				        {%>
+				        	<option  label="<%=rs.getString("name")%>"><%=rs.getString("name")%></option>
+				        	
+				      <%}%>
+       
+                </select>
+            </div>
+            <div id="company">
+                <input type = "text" placeholder="Company" name="Company" class="form-control" >
+            </div>
+            <div id="price">
+                <input type = "text" placeholder="Price" name="Price" class="form-control" > 
+            </div>
+            <div id="qty">
+                <input type = "text" placeholder="Qty" name="Qty" class="form-control" > 
+            </div>
+            <div id="add">
+                <input type = "submit" value="Add to Stock" class="btn btn-primary">
+            </div>
+        </div>
+    </form>
+	
+</body>
+</html>

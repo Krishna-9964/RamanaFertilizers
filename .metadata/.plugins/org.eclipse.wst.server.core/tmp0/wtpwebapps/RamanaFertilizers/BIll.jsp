@@ -1,0 +1,91 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="DBConnect.dbconnect.*" %>
+<%@ page import="java.sql.*" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Bill</title>
+    <link rel="stylesheet" href="bill.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
+	<script src="bill.js"></script>
+</head>
+
+<body>
+<%@ include file="header.html"%>
+<form action="sell.jsp">
+<div class="container">
+    <h3>RAMANA FERTILEZERS</h3>
+    <p>GSTIN : 29ANPPA3453P1ZF</p>
+    <p>Phone : 9902985750</p>	
+    <h3>Invoice</h3>
+    <%
+    long millis=System.currentTimeMillis();  
+    // creating a new object of the class Date  
+    java.sql.Date date = new java.sql.Date(millis);  
+    %>
+    <table>
+        <tr>
+            <td><b>Customer Name </b><input type="text" placeholder="Name of the customer" id="c_name" name="c_name" required="required">
+            </td>
+            <td id="date"><b>Date :</b><%=date%>
+            </td>
+        </tr>
+    </table>
+    <h3>Bill Details</h3>
+    <table class="o-desc" id="tbody">
+        <tr>
+            <th class="desc">Item Name</th>
+            <th class="desc">Price</th>
+            <th class="desc">Quantity</th>
+            <th class="desc">Total</th>
+            <th class="desc"> Delete Item</th>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="item">    <div class="form-group">
+               
+                <select name="fname"  id="itemName" tabindex="1" class="form-control">
+        <option selected="selected" value="0">--Select--</option>
+        <%
+        ResultSet rs = DBConnect.dbconnect.getFertilizers();
+        //rs.next();
+        while(rs.next())
+        {
+        	if(rs.getInt("qty")>0)
+        	{%>
+        	<option  value= "<%=rs.getDouble("price") %>"><%=rs.getString("name")%></option>
+        	
+      		<%}
+        }%>
+       
+        
+        </select>
+            </div></td>
+            <td><input type="text" class="form-control" id="qty" placeholder="Enter Quantity" name="qty"></td>
+            <td class="btns"><input type="button" class=" btn btn-primary" value="Add Item" onclick="getValues()"></td>
+        </tr>
+    </table>
+    <div>
+    <label>Total : </label><input type="text" id ="sumTotal" value=0 disabled name="amountTotal">
+    </div>
+    
+    <div class="hide">
+	    <input type="text" id="fertilizers" name = "fertilizers" class="totalvalues">
+	    <input type="text" id="quantity" name = "quantity" class="totalvalues">
+	    <input type="text" id="price" name = "price" class="totalvalues">
+	</div>
+<div class="final">
+    <input type="button" class="btn btn-info" value="Preview Bill" onclick="values()">
+    <input type="submit" class="btn btn-success" value="Print Bill" >
+</div>
+</form>
+</body>
+</html>

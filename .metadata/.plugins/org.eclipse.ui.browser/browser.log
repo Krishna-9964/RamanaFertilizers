@@ -1,0 +1,172 @@
+
+Oct 22, 2022 20:28:19.322 NEW SESSION
+Oct 22, 2022 20:28:19.322 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 20:28:19.323 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 20:28:19.323 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 20:28:19.339 [4087:4087:1022/202819.338813:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 20:28:21.461 [4040:4072:1022/202821.460774:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:28:30.530 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 20:28:30.530 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 20:28:30.531 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 20:28:30.541 [4303:4303:1022/202830.540580:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 20:28:32.586 [4259:4290:1022/202832.585998:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:28:59.385 [4259:4290:1022/202859.384984:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:29:47.950 [4259:4290:1022/202947.950302:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:31:39.284 [4259:4290:1022/203139.283955:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:34:33.27 [4259:4290:1022/203433.027198:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:40:55.866 [4259:4290:1022/204055.866100:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:42:18.255 Opening in existing browser session.
+Oct 22, 2022 20:42:18.324 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 20:42:18.324 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 20:42:18.324 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 20:42:18.333 [5716:5716:0100/000000.333121:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 20:42:57.694 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 20:42:57.694 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 20:42:57.695 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 20:42:57.704 [5894:5894:1022/204257.703574:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 20:43:27.317 [5849:5879:1022/204327.317125:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:43:47.567 [5849:5879:1022/204347.566844:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:44:12.415 [5849:5879:1022/204412.415301:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:44:29.299 [5849:5879:1022/204429.299000:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:44:57.527 [5849:5879:1022/204457.527066:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 20:49:28.932 Opening in existing browser session.
+Oct 22, 2022 20:49:29.06 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 20:49:29.07 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 20:49:29.07 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 20:49:29.16 [6471:6471:0100/000000.016734:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 20:58:04.278 [5849:5879:1022/205804.278366:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 21:01:47.300 [5849:5879:1022/210147.299481:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 21:02:28.601 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 21:02:28.601 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 21:02:28.601 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 21:02:28.611 [7880:7880:1022/210228.611358:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 21:02:53.901 [7836:7866:1022/210253.900709:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 21:03:16.658 [7836:7866:1022/210316.658515:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 21:03:47.409 [7881:7886:1022/210347.408692:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -101
+Oct 22, 2022 21:03:56.903 [7881:7886:1022/210356.903286:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -100
+Oct 22, 2022 21:03:57.393 [7881:7886:1022/210357.392970:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -100
+Oct 22, 2022 21:03:58.378 [7836:7866:1022/210358.377656:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -7
+Oct 22, 2022 21:03:58.624 [7881:7886:1022/210358.624012:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -100
+Oct 22, 2022 21:03:59.777 [7881:7886:1022/210359.776834:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -100
+Oct 22, 2022 21:05:12.788 [7881:7886:1022/210512.787788:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -101
+Oct 22, 2022 21:05:28.327 [7836:7866:1022/210528.327508:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 21:06:59.310 [7881:7886:1022/210659.309720:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -100
+Oct 22, 2022 21:07:00.566 [7881:7886:1022/210700.566223:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -100
+Oct 22, 2022 21:07:10.930 [7881:7886:1022/210710.930534:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -100
+Oct 22, 2022 21:07:25.55 [7881:7886:1022/210725.055501:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -100
+Oct 22, 2022 21:07:25.56 [7836:7866:1022/210725.056023:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -100
+Oct 22, 2022 21:07:46.332 [7836:7866:1022/210746.332540:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 21:08:52.141 [7836:7866:1022/210852.140749:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2022 21:09:03.436 [7836:7866:1022/210903.436036:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2022 21:09:26.309 [7881:7886:1022/210926.309082:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -100
+Oct 22, 2022 21:09:56.513 [7836:7866:1022/210956.513333:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -7
+Oct 22, 2022 21:10:28.325 [7836:7866:1022/211028.325068:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 21:20:28.329 [7836:7866:1022/212028.329171:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 21:30:28.333 [7836:7866:1022/213028.333058:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 21:46:02.398 Opening in existing browser session.
+Oct 22, 2022 21:46:02.482 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 21:46:02.483 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 21:46:02.483 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 21:46:02.492 [10649:10649:0100/000000.492166:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 22:05:51.980 Opening in existing browser session.
+Oct 22, 2022 22:05:52.46 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 22:05:52.46 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 22:05:52.46 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 22:05:52.54 [11726:11726:0100/000000.054302:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 22:08:23.307 Opening in existing browser session.
+Oct 22, 2022 22:08:23.381 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 22:08:23.381 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 22:08:23.381 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 22:08:23.389 [12248:12248:0100/000000.388983:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 22:12:24.308 [7836:7866:1022/221224.307742:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 22:12:44.113 [7836:7866:1022/221244.112843:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -105
+Oct 22, 2022 22:13:19.287 [7836:7866:1022/221319.287381:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 22:13:49.292 [7836:7866:1022/221349.292439:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 22:14:30.581 [7836:7866:1022/221430.580977:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 22:15:13.292 [7836:7866:1022/221513.291943:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 22:15:52.270 [7836:7866:1022/221552.269931:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 22:16:21.670 [7836:7866:1022/221621.670175:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 22:17:19.288 [7836:7866:1022/221719.288429:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 22:18:34.696 Opening in existing browser session.
+Oct 22, 2022 22:18:34.782 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 22:18:34.782 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 22:18:34.782 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 22:18:34.798 [13442:13442:0100/000000.797424:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 22:19:08.286 [7836:7866:1022/221908.286388:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -106
+Oct 22, 2022 22:19:44.107 Opening in existing browser session.
+Oct 22, 2022 22:19:44.246 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 22:19:44.247 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 22:19:44.247 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 22:19:44.262 [13630:13630:0100/000000.262712:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 22:21:08.442 Opening in existing browser session.
+Oct 22, 2022 22:21:08.552 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 22:21:08.552 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 22:21:08.552 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 22:21:08.567 [13830:13830:0100/000000.567134:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 22, 2022 22:22:09.605 Opening in existing browser session.
+Oct 22, 2022 22:22:09.711 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 22, 2022 22:22:09.711 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 22, 2022 22:22:09.711 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 22, 2022 22:22:09.718 [14009:14009:0100/000000.718608:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+
+Oct 27, 2022 05:22:44.159 NEW SESSION
+Oct 27, 2022 05:22:44.160 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 27, 2022 05:22:44.160 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 27, 2022 05:22:44.161 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 27, 2022 05:22:44.168 [5788:5788:1027/052244.167864:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 27, 2022 05:38:06.708 Fontconfig error: Cannot load default config file: No such file: (null)
+Oct 27, 2022 05:42:44.384 Opening in existing browser session.
+Oct 27, 2022 05:42:44.471 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 27, 2022 05:42:44.471 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 27, 2022 05:42:44.471 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 27, 2022 05:42:44.481 [8006:8006:0100/000000.481016:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 27, 2022 05:43:40.584 Fontconfig error: Cannot load default config file: No such file: (null)
+Oct 27, 2022 05:43:41.670 [5739:8122:1027/054341.670105:ERROR:cert_verify_proc_builtin.cc(681)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+Oct 27, 2022 05:43:41.670 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+Oct 27, 2022 05:43:41.670 ERROR: Time is after notAfter
+Oct 27, 2022 05:43:41.671 
+Oct 27, 2022 05:43:41.671 
+Oct 27, 2022 05:43:41.671 [5789:5794:1027/054341.671163:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -201
+Oct 27, 2022 05:43:41.986 [5789:5794:1027/054341.986064:ERROR:ssl_client_socket_impl.cc(995)] handshake failed; returned -1, SSL error code 1, net_error -201
+Oct 27, 2022 05:43:46.119 Fontconfig error: Cannot load default config file: No such file: (null)
+Oct 27, 2022 05:44:42.774 Fontconfig error: Cannot load default config file: No such file: (null)
+
+Oct 27, 2022 15:38:14.307 NEW SESSION
+Oct 27, 2022 15:38:14.307 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 27, 2022 15:38:14.309 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 27, 2022 15:38:14.309 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 27, 2022 15:38:14.321 [3742:3742:1027/153814.321024:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+
+Oct 27, 2022 17:18:36.950 NEW SESSION
+Oct 27, 2022 17:18:36.951 mesa: for the --simplifycfg-sink-common option: may only occur zero or one times!
+Oct 27, 2022 17:18:36.952 mesa: for the --global-isel-abort option: may only occur zero or one times!
+Oct 27, 2022 17:18:36.952 mesa: for the --amdgpu-atomic-optimizations option: may only occur zero or one times!
+Oct 27, 2022 17:18:36.962 [3484:3484:1027/171836.961528:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+Oct 27, 2022 17:20:50.924 [3437:3470:1027/172050.923860:ERROR:connection_factory_impl.cc(425)] Failed to connect to MCS endpoint with error -118
+
+Oct 27, 2022 19:42:04.38 NEW SESSION
+Oct 27, 2022 19:42:04.38 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 19:42:04.54 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 19:42:04.88 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 19:42:04.137 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 19:42:04.796 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 19:42:04.809 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 19:42:04.837 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 19:42:04.876 ATTENTION: default value of option mesa_glthread overridden by environment.
+
+Oct 27, 2022 20:13:44.13 NEW SESSION
+Oct 27, 2022 20:13:44.13 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 20:13:44.29 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 20:13:44.58 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 20:13:44.105 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 20:13:44.765 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 20:13:44.782 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 20:13:44.814 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 20:13:44.860 ATTENTION: default value of option mesa_glthread overridden by environment.
+Oct 27, 2022 20:15:41.618 
+Oct 27, 2022 20:15:41.618 (firefox:4007): GLib-GObject-CRITICAL **: 20:15:41.618: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Oct 27, 2022 20:15:41.661 
+Oct 27, 2022 20:15:41.662 (/usr/lib/firefox/firefox:4184): dconf-WARNING **: 20:15:41.661: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+Oct 27, 2022 20:31:55.110 
+Oct 27, 2022 20:31:55.110 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+Oct 27, 2022 20:31:55.111 

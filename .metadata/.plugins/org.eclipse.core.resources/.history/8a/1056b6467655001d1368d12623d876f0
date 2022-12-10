@@ -1,0 +1,74 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+      label{
+        font-weight: 500;
+        font-size: 20px;
+      }
+    </style>
+</head>
+<body>
+  <center><label>From :  To :  </label> </center>
+ 
+   <div class="container">
+     <center><h3>Product-wise Transaction Details</center></h3>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Sl</th>
+            <th scope="col">Fertilizer</th>
+            <th scope="col">Date</th>
+            <th scope="col">Nos</th>
+            <th scope="col">Price</th>
+            <th scope="col">Total(Rs)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+            <td>@mdo</td>
+          </tr>
+        </tbody>
+      </table><br><br>
+
+      <center><h3>Customer-wise Transaction Details</center></h3>
+      <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Transaction ID</th>
+              <th scope="col">Customer Name</th>
+              <th scope="col">Date</th>
+              <th scope="col">Total(Rs)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+          </tbody>
+        </table>
+        <center><button class="btn btn-success" onclick="Print()">Print</button></center>
+   </div>
+   <script>
+     function Print()
+     {
+       window.print();
+     }
+   </script>
+</body>
+</html>
